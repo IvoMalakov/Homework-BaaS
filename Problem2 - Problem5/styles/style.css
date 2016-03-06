@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table p {
+    padding: 1px;
+}
+
+input {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 10px;
+    width: 190px;
+}
+
+button {
+    margin: 10px;
+    display: inline-block;
+    font-size: 80%;
+    color: white;
+    border-radius: 5px;
+}
+
+#towns {
+    display: inline-block;
+}
+
+#towns button {
+    width: 100px;
+}
+
+.add {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}
+
+.edit {
+    background-color: blue;
+}
+
+.list {
+    background-color: aqua;
+}
+
+#wrapper {
+    font-family: "Arial Black";
+}
+
+header h1 {
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+main h2 {
+    font:35px Tahoma Black;
+    text-align: center;
+}
+
+main table {
+    margin: 20px 10px 10px 110px;
+}
+
+main table tr th {
+    background-color: cornflowerblue;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+main table tr td {
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+main #town-table {
+    display: none;
+}
+
+.kinvey {
+    color: red;
+}

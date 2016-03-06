@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kinvey Demo</title>
+    <script type="text/javascript" src="jquery/jquery.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Welcome to <span class="kinvey">Kinvey.com</span> demo page</h1>
+    </header>
+    <main>
+        <h2>Those are the countries on my backend in <span class="kinvey">Kinvey.com</span></h2>
+        <table id="country-table">
+            <thead>
+            <tr>
+                <th><p>Country name</p></th>
+            </tr>
+            </thead>
+
+            <tbody id="tbody">
+            </tbody>
+        </table>
+
+        <form id="contries">
+            <input type="text" placeholder="Enter the country name here" id="countryName" />
+            <button type="button" value="add" name="add" class="add" id="add-country">Add a country</button>
+            <button type="button" value="delete" name="delete" class="delete" id="delete-country">Delete a country</button>
+        </form>
+
+        <form id="towns">
+            <button type="button" value="edit" name="edit" class="edit" id="edit-countrys">Edit a country</button>
+            <button type="button" value="list" name="list" class="list" id="list-towns">List towns</button>
+        </form>
+
+        <table id="town-table">
+            <thead>
+            <tr>
+                <th><p>Town name</p></th>
+            </tr>
+            </thead>
+            <tbody id="town-tbody"></tbody>
+        </table>
+
+        <form id="town-text">
+            <input type="text" placeholder="Enter a town name here" id="town-name" />
+            <input type="text" placeholder="What country belongs this town" id="coutry-belongs" />
+        </form>
+
+        <form id="town-buttons">
+            <button type="button" value="add" name="addTown" class="add" id="add-town">Add a town</button>
+            <button type="button" value="delete" name="removeTown" class="delete" id="delete-town">Delete a town</button>
+            <button type="button" value="edit" name="editTown" class="edit" id="edit-town">Edit a town</button>
+        </form>
+    </main>
+</div>
+<script type="text/javascript" src="scripts/countries_and_towns.js" defer></script>
+</body>
+</html>
